@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-title">
+        <h2>@criptopriceinf_bot</h2>
+      </div>
+    </div>
+  </header>
+  <div class="main">
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="content-header">
+          <div class="title">
+            <h2>Краткое руководство</h2>
+          </div>
+          <div class="text p">
+            Для поиска нужной валюты или криптовалюты указуйте код нужной валюты или ее символ
+          </div>
+          <div class="text">
+            Неже представлен список доступной валюты а также криптовалюты
+          </div>
+          <div class="text">
+            <span>Примечание</span>
+            Код доступен только в нижнем регистре а символ доступен в любом регистре
+          </div>
+          <div class="text p">
+            Конвертер валют происходит по примеру 10 USD in EUR (доступен только для валюты)
+          </div>
+          <div class="text">
+            <span>Примечание</span>
+            Если число не указано будет использовано 1 по умолчанию
+          </div>
+          <div class="links">
+            <a href="#rates">Список валют</a>
+            <a href="#crypto">Список криптовалют</a>
+          </div>
+        </div>
+
+        <div class="list">
+          <div class="title" id="rates">Валюты</div>
+          <table id="rates-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Символ</th>
+                <th>Код</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+
+        <div class="list">
+          <div class="title" id="crypto">Список криптовалют</div>
+          <table id="crypto-table">
+            <thead>
+              <tr>
+                <th>Имя</th>
+                <th>Символ</th>
+                <th>Код</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

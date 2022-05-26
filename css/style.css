@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fff;
+  font-size: 16px;
+}
+
+.header {
+  /* border-bottom: 1px solid #dadada; */
+
+  box-shadow: 0 0 1px #d7d7d7,
+              0 0 2px #d7d7d7,
+              0 0 5px #d7d7d7;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-title {
+  padding: 20px 0 15px;
+}
+.main {
+  padding: 30px 0 20px;
+  background: #fcfcfc;
+  width: 100%;
+}
+.content-wrapper {
+  padding: 0 15px 25px;
+  background: #fff;
+  width: 100%;
+  min-height: 100vh;
+  box-shadow: 0 0 1px #d7d7d7,
+  0 0 2px #d7d7d7,
+  0 0 5px #d7d7d7;
+}
+
+.content-wrapper .content-header .title h2{
+  font-size: 28px;
+  padding: 20px 0 0;
+}
+.content-wrapper .content-header .text{
+  font-size: 16px;
+  line-height: 18px;
+}
+.content-wrapper .content-header .text.p{
+  margin-top: 10px;
+}
+.content-wrapper .content-header .text span{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.content-wrapper .content-header .links{
+  margin-top: 10px;
+}
+
+.content-wrapper .content-header .links a{
+  color: #00629d;
+}
+
+.content-header a {
+  display: block;
+}
+
+.content-wrapper .list {
+  margin-top: 30px;
+}
+.content-wrapper .list .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.content-wrapper .list table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+
+
+.content-wrapper .list table tr {
+  background: #aec8cd;
+}
+.content-wrapper .list table tr:nth-of-type(odd) {
+  background: #eeeeee;
+}
+.content-wrapper .list table thead tr th {
+  background: #214c54;
+  color: #fff;
+}
+.content-wrapper .list table tr th,
+.content-wrapper .list table tr td {
+  text-align: left;
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 10px;
+}
+
+.content-wrapper .crypto-list li
+
+.content-wrapper .rates-list li.title,
+.content-wrapper .crypto-list li.title {
+  font-weight: bold;
+}
+
+.content-wrapper .rates-list li div,
+.content-wrapper .crypto-list li div {
+  margin-right: 10px;
+  line-height: 24px;
+}
+.content-wrapper .rates-list li .num {
+  min-width: 20px;
+}
+.content-wrapper .crypto-list li .name {
+  min-width: 150px;
+}
+.content-wrapper .rates-list li .symbol,
+.content-wrapper .crypto-list li .symbol{
+  min-width: 70px;
+}
